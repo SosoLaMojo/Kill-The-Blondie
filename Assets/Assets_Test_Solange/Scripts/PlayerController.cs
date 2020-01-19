@@ -7,6 +7,8 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField] private Rigidbody2D rigidBody;
 
+    private bool isGrounded = false;
+
     private void Start()
     {
         rigidBody = GetComponent<Rigidbody2D>();
@@ -15,7 +17,7 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetButtonDown("Jump"))
+        if (Input.GetButtonDown("Jump") && isGrounded == true)
         {
             Jump();
         }
@@ -24,6 +26,16 @@ public class PlayerController : MonoBehaviour
     private void Jump()
     {
         rigidBody.velocity += new Vector2(0, maxSpeedJump);
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        isGrounded = true;
+    }
+
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        isGrounded = false;
     }
 }
 
