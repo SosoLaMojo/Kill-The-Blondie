@@ -192,8 +192,19 @@ PrefabInstance:
       propertyPath: losePanelUI
       value: 
       objectReference: {fileID: 1816548242}
+    - target: {fileID: 8420304076162300220, guid: 9af96d2b84d43e146865e8b7b0367d00,
+        type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 57254878}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9af96d2b84d43e146865e8b7b0367d00, type: 3}
+--- !u!95 &57254878 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 345340793811721988, guid: 9af96d2b84d43e146865e8b7b0367d00,
+    type: 3}
+  m_PrefabInstance: {fileID: 57254877}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &66147146
 GameObject:
   m_ObjectHideFlags: 0
@@ -1384,6 +1395,7 @@ MonoBehaviour:
   maxSpeedJump: 200
   speed: 0
   rigidBody: {fileID: 0}
+  animator: {fileID: 0}
   losePanelUI: {fileID: 1816548242}
 --- !u!114 &1728488992
 MonoBehaviour:
