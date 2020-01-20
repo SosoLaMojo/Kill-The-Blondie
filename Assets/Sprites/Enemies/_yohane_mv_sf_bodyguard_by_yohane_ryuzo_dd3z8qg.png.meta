@@ -1,0 +1,391 @@
+fileFormatVersion: 2
+guid: d97ab97e660a34446b372eccdcd95823
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8241249294713599732
+    second: _yohane_mv_sf_bodyguard_by_yohane_ryuzo_dd3z8qg_0
+  - first:
+      213: -2614649976173291004
+    second: _yohane_mv_sf_bodyguard_by_yohane_ryuzo_dd3z8qg_1
+  - first:
+      213: 3536027839431616634
+    second: _yohane_mv_sf_bodyguard_by_yohane_ryuzo_dd3z8qg_2
+  - first:
+      213: 4496914414531639965
+    second: _yohane_mv_sf_bodyguard_by_yohane_ryuzo_dd3z8qg_3
+  - first:
+      213: -4328104713168439273
+    second: _yohane_mv_sf_bodyguard_by_yohane_ryuzo_dd3z8qg_4
+  - first:
+      213: -3690626262157487954
+    second: _yohane_mv_sf_bodyguard_by_yohane_ryuzo_dd3z8qg_5
+  - first:
+      213: -7823697830160414059
+    second: _yohane_mv_sf_bodyguard_by_yohane_ryuzo_dd3z8qg_6
+  - first:
+      213: -1550219635457293161
+    second: _yohane_mv_sf_bodyguard_by_yohane_ryuzo_dd3z8qg_7
+  - first:
+      213: 5503988755242130574
+    second: _yohane_mv_sf_bodyguard_by_yohane_ryuzo_dd3z8qg_8
+  - first:
+      213: 6686753229750350853
+    second: _yohane_mv_sf_bodyguard_by_yohane_ryuzo_dd3z8qg_9
+  - first:
+      213: -7042372513289162681
+    second: _yohane_mv_sf_bodyguard_by_yohane_ryuzo_dd3z8qg_10
+  - first:
+      213: -676041792469105230
+    second: _yohane_mv_sf_bodyguard_by_yohane_ryuzo_dd3z8qg_11
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 30
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: _yohane_mv_sf_bodyguard_by_yohane_ryuzo_dd3z8qg_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 243
+        width: 26
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f93d1ebd68a75cc4d8215529935ae7fa
+      internalID: 8241249294713599732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _yohane_mv_sf_bodyguard_by_yohane_ryuzo_dd3z8qg_1
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 244
+        width: 31
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 078f8fa4f76fe0a41b2c2b5b22a990d7
+      internalID: -2614649976173291004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _yohane_mv_sf_bodyguard_by_yohane_ryuzo_dd3z8qg_2
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 243
+        width: 26
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4707184fc8d85f4dac54012f79f7128
+      internalID: 3536027839431616634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _yohane_mv_sf_bodyguard_by_yohane_ryuzo_dd3z8qg_3
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 163
+        width: 27
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be5d794f54cfee24ea3261b7fc7d154e
+      internalID: 4496914414531639965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _yohane_mv_sf_bodyguard_by_yohane_ryuzo_dd3z8qg_4
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 162
+        width: 22
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fbb7975e1076f94da8717018c9ed527
+      internalID: -4328104713168439273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _yohane_mv_sf_bodyguard_by_yohane_ryuzo_dd3z8qg_5
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 162
+        width: 25
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1540bcc035f085f49b23efe33518da0c
+      internalID: -3690626262157487954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _yohane_mv_sf_bodyguard_by_yohane_ryuzo_dd3z8qg_6
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 83
+        width: 27
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8db49de676021a4c96d5a5994986841
+      internalID: -7823697830160414059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _yohane_mv_sf_bodyguard_by_yohane_ryuzo_dd3z8qg_7
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 82
+        width: 22
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73b12e15769b56d4bab5e0290dd6de28
+      internalID: -1550219635457293161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _yohane_mv_sf_bodyguard_by_yohane_ryuzo_dd3z8qg_8
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 82
+        width: 25
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 518390b8c0450b349b69c79f89436c2c
+      internalID: 5503988755242130574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _yohane_mv_sf_bodyguard_by_yohane_ryuzo_dd3z8qg_9
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 3
+        width: 25
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33e513010337b5740beddb1a3d77ba82
+      internalID: 6686753229750350853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _yohane_mv_sf_bodyguard_by_yohane_ryuzo_dd3z8qg_10
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 4
+        width: 31
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 898aff366f091f142908678bb642b198
+      internalID: -7042372513289162681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _yohane_mv_sf_bodyguard_by_yohane_ryuzo_dd3z8qg_11
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 3
+        width: 25
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22d64df2be13cbd41a25061cb6d675e2
+      internalID: -676041792469105230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
