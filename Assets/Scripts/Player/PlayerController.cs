@@ -7,6 +7,8 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField] private Rigidbody2D rigidBody;
 
+    [SerializeField] private GameObject losePanelUI;
+
     private bool isGrounded = false;
 
     private void Start()
@@ -38,6 +40,7 @@ public class PlayerController : MonoBehaviour
         if (collision.gameObject.layer == LayerMask.NameToLayer("Bodyguard"))
         {
             Destroy(gameObject);
+            ActivateLosePanel();
         }
     }
 
@@ -47,6 +50,12 @@ public class PlayerController : MonoBehaviour
         {
             isGrounded = false;
         }
+    }
+
+    public void ActivateLosePanel()
+    {
+        losePanelUI.gameObject.SetActive(true);
+        Time.timeScale = 0f;
     }
 }
 
