@@ -6,8 +6,10 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float speed;
 
     [SerializeField] private Rigidbody2D rigidBody;
+    [SerializeField] private Animator animator;
 
     private bool isGrounded = false;
+    private float horizontalMove = 0f;
 
     private void Start()
     {
@@ -17,9 +19,13 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
+        horizontalMove = 1f;
+        animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
+
         if (Input.GetButtonDown("Jump") && isGrounded == true)
         {
             Jump();
+            animator.SetTrigger("isJumping 0");
         }
     }
 
