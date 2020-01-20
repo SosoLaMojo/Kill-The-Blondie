@@ -1480,20 +1480,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 407999294}
     m_Modifications:
-    - target: {fileID: 4985525109347056896, guid: c561aea3d84a542438f84ae9d288c8d0,
-        type: 3}
-      propertyPath: losePanelUI
-      value: 
-      objectReference: {fileID: 1816548242}
     - target: {fileID: 4985525110371385943, guid: c561aea3d84a542438f84ae9d288c8d0,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.475198
+      value: 7.329
       objectReference: {fileID: 0}
     - target: {fileID: 4985525110371385943, guid: c561aea3d84a542438f84ae9d288c8d0,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.0802794
+      value: -3.625
       objectReference: {fileID: 0}
     - target: {fileID: 4985525110371385943, guid: c561aea3d84a542438f84ae9d288c8d0,
         type: 3}
