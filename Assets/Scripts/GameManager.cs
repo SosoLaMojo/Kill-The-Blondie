@@ -16,6 +16,10 @@ public class GameManager : MonoBehaviour
     }
 
     [SerializeField] State state = State.MENU;
+    //private void Awake()
+    //{
+    //    DontDestroyOnLoad(gameObject);
+    //}
 
     private void Update()
     {
