@@ -1424,6 +1424,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   winPanelUI: {fileID: 1412424417}
+  quitButton: {fileID: 0}
 --- !u!1 &929344480
 GameObject:
   m_ObjectHideFlags: 0
@@ -1577,6 +1578,11 @@ PrefabInstance:
       propertyPath: speed
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 1688299942827494254, guid: 56c104d5aa795a24bbbcb06af2abcf97,
+        type: 3}
+      propertyPath: quitButton
+      value: 
+      objectReference: {fileID: 1341022292}
     - target: {fileID: 1688299942827494255, guid: 56c104d5aa795a24bbbcb06af2abcf97,
         type: 3}
       propertyPath: m_Offset.y
@@ -1705,6 +1711,10 @@ PrefabInstance:
       propertyPath: winPanelUI
       value: 
       objectReference: {fileID: 1412424417}
+    - target: {fileID: 88961007, guid: e8096425de38d684d85903d8c9faa893, type: 3}
+      propertyPath: quitButton
+      value: 
+      objectReference: {fileID: 1750059333}
     - target: {fileID: 88961008, guid: e8096425de38d684d85903d8c9faa893, type: 3}
       propertyPath: m_Offset.y
       value: 0.23904786

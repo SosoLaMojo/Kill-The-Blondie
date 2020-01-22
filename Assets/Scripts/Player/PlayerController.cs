@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Animator animator;
 
     [SerializeField] private GameObject losePanelUI;
+    [SerializeField] private Button quitButton; 
 
     private bool isGrounded = false;
     private float horizontalMove = 0f;
@@ -62,6 +64,7 @@ public class PlayerController : MonoBehaviour
     {
         losePanelUI.gameObject.SetActive(true);
         Time.timeScale = 0f;
+        quitButton.Select();
     }
 }
 

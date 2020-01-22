@@ -17,34 +17,30 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] State state = State.MENU;
 
-
-
     private void Update()
     {
-        switch (state)
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            case State.MENU:
-                Debug.Log("menu");
-                if (Input.GetKeyDown(KeyCode.Space))
-                {
-                    Debug.Log("load bordel");
+            switch (state)
+            {
+                case State.MENU:
                     SceneManager.LoadScene("GameScene");
                     Time.timeScale = 1f;
                     state = State.GAME;
-                }
-                break;
+                    break;
 
-            case State.LOSE:
-                menuManager.ReturnToMenu();
-                break;
+                case State.LOSE:
+                    menuManager.QuitGame();
+                    break;
 
-            case State.WIN:
-                menuManager.ReturnToMenu();
-                break;
+                case State.WIN:
+                    menuManager.QuitGame();
+                    break;
 
-            case State.GAME:
-                Debug.Log("game");
-                break;
+                case State.GAME:
+                    
+                    break;
+            }
         }
     }
 }
